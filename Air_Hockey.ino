@@ -88,8 +88,8 @@ void moveMotorRight() {
 }
 
 void stopMotor() {
-  // Code to stop the motor
-  // Replace with your implementation
+  digitalWrite(9, LOW);
+  digitalWrite(8, LOW);
   Serial.println("Stopping motor");
 }
 
